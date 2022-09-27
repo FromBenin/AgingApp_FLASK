@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Thanks</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='/css/age.css')}}">
+    </head>
+    <body>
+      <img src="https://raw.githubusercontent.com/MariyaSha/SimpleGreetingApp/main/logo.png">
+      <br>
+      {% for message in get_flashed_messages()%}
+        <p> {{message}} </p>
+      {% endfor %}
+        <br>
+      {% for message in get_flashed_messages()%}
+        <p> Developed by Nosa </p>
+      {% endfor %}
+      <button id="end"><a href="/">Start all Over</a></button>
+    </body>
+</html>

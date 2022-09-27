@@ -1,0 +1,100 @@
+body {
+    background-color: slategrey;
+    text-align: center;
+}
+
+p {
+    color: whitesmoke;
+    font-family: sans-serif;
+    font-size: 1.4em;
+    margin: 20px;
+}
+
+img {
+    margin: 60px 0 30px 0;
+    width: 250px;
+}
+
+input {
+    width: 300px;
+    height: 50px;
+    margin: 20px;
+    border: none;
+    border-radius: 10px;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+input:focus {
+    border: solid 5px #00FFCE;
+    outline: none;
+}
+
+button {
+    width: 200px;
+    height: 40px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+button:focus {
+    border: solid 5px #00FFCE;
+    outline: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:active {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+#next {
+    background-color: palevioletred;
+    color: white;
+    width: 200px;
+    border-radius: 10%;
+    outline: none;
+}
+
+#next:hover {
+    background-color: mediumvioletred;
+    cursor: pointer;
+    outline: none;
+}
+
+#age {
+    background-color: palevioletred;
+    color: white;
+    width: 200px;
+}
+
+#age:hover {
+    background-color: mediumvioletred;
+    cursor: pointer;
+}
+
+#end {
+    background-color: palevioletred;
+    color: white;
+    width: 200px;
+    border-radius: 10%;
+    outline: none;
+}
+
+#end:hover {
+    background-color: mediumvioletred;
+    cursor: pointer;
+    outline: none;
+}
